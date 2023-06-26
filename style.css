@@ -23,13 +23,13 @@
 }
 
 body {
-  background: var(--bgurl) no-repeat top center/cover;
+  background: var(--bg-url) no-repeat top center/cover;
   height: 100vh;
 }
 
 body * {
   font-family: "Inter", sans-serif;
-  color: #fff;
+  color: var(--text-color);
 }
 
 #container {
@@ -43,7 +43,7 @@ body * {
 }
 
 #profile {
-  width: 112px;
+  margin: 0 auto;
 }
 
 #profile .img-antonia {
